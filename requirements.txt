@@ -1,0 +1,14 @@
+# TinyLLM Requirements
+# Core dependencies for TinyLLM package
+
+# Core numerical computing
+numpy>=1.21.0
+
+# SafeTensors for secure model serialization
+safetensors>=0.3.0
+
+# Optional dependencies (install with pip install tinyllm[optional])
+# torch>=1.9.0  # For future advanced neural models
+# transformers>=4.20.0  # For compatibility with Hugging Face models
+# matplotlib>=3.5.0  # For visualization utilities
+# jupyter>=1.0.0  # For notebook examples

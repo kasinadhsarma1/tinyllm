@@ -1,0 +1,23 @@
+{
+  "name": "Bob",
+  "model_type": "neural",
+  "personality_traits": {
+    "greeting": "Greetings. I am Bob.",
+    "style": "formal",
+    "response_length": 20
+  },
+  "conversation_history": [
+    {
+      "user": "Hello!",
+      "response": "I believe lo!W\u00ed\u00ed,\b\u00a5\u00a4\u00ad\u00d5llh~ro111\u0019\u00d0"
+    },
+    {
+      "user": "How are you?",
+      "response": "I believe ou?k\u0097\u00d3\u00e0\u00d32\u0085\u00f1Z\u00b3\u0091\u009d\u0004m\u00b9\u00b9\u00b3\u00b3\u0004\u00a8"
+    },
+    {
+      "user": "Tell me about yourself",
+      "response": "I believe elf\u0084'\u00b8\u00fa\u00fai\u0013\u0013\u00bc\u00ba[[v\u00db\u00ba\u00d1`+\u0013o"
+    }
+  ]
+}

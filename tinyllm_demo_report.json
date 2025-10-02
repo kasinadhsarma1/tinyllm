@@ -1,0 +1,649 @@
+{
+  "report_info": {
+    "generated_at": "2025-10-02 21:13:07",
+    "models_directory": "models",
+    "tinyllm_version": "1.0.0"
+  },
+  "directory_scan": {
+    "models_directory": "models",
+    "scan_time": "2025-10-02 21:13:07",
+    "users": {
+      "demo_user": {
+        "models": [
+          {
+            "name": "demo_neural",
+            "type": "neural",
+            "format": "safetensors",
+            "file_size": "398.6 KB",
+            "safetensors_info": {
+              "num_tensors": 2,
+              "tensor_names": [
+                "bias",
+                "embeddings"
+              ],
+              "tensor_shapes": {
+                "bias": [
+                  1000
+                ],
+                "embeddings": [
+                  1000,
+                  50
+                ]
+              },
+              "tensor_dtypes": {
+                "bias": "float64",
+                "embeddings": "float64"
+              },
+              "file_size": "398.6 KB"
+            }
+          },
+          {
+            "name": "demo_ngram",
+            "type": "ngram",
+            "format": "json",
+            "file_size": "2.4 KB"
+          }
+        ],
+        "model_count": 2
+      },
+      "safetensors_demo": {
+        "models": [
+          {
+            "name": "safetensors_test",
+            "type": "neural",
+            "format": "safetensors",
+            "file_size": "6.8 KB",
+            "safetensors_info": {
+              "num_tensors": 2,
+              "tensor_names": [
+                "bias",
+                "embeddings"
+              ],
+              "tensor_shapes": {
+                "bias": [
+                  50
+                ],
+                "embeddings": [
+                  50,
+                  16
+                ]
+              },
+              "tensor_dtypes": {
+                "bias": "float64",
+                "embeddings": "float64"
+              },
+              "file_size": "6.8 KB"
+            }
+          }
+        ],
+        "model_count": 1
+      },
+      "kasinadhsarma": {
+        "models": [
+          {
+            "name": "chat_model",
+            "type": "ngram",
+            "format": "json",
+            "file_size": "1.8 KB"
+          }
+        ],
+        "model_count": 1
+      },
+      "safetensors_user": {
+        "models": [
+          {
+            "name": "safetensors_demo",
+            "type": "neural",
+            "format": "safetensors",
+            "file_size": "23.8 KB",
+            "safetensors_info": {
+              "num_tensors": 5,
+              "tensor_names": [
+                "W_embed",
+                "W_hidden",
+                "W_out",
+                "b_hidden",
+                "b_out"
+              ],
+              "tensor_shapes": {
+                "W_embed": [
+                  40,
+                  32
+                ],
+                "W_hidden": [
+                  32,
+                  64
+                ],
+                "W_out": [
+                  64,
+                  40
+                ],
+                "b_hidden": [
+                  64
+                ],
+                "b_out": [
+                  40
+                ]
+              },
+              "tensor_dtypes": {
+                "W_embed": "float32",
+                "W_hidden": "float32",
+                "W_out": "float32",
+                "b_hidden": "float32",
+                "b_out": "float32"
+              },
+              "file_size": "23.8 KB"
+            }
+          }
+        ],
+        "model_count": 1
+      },
+      "bob": {
+        "models": [
+          {
+            "name": "bob_personality",
+            "type": "neural",
+            "format": "safetensors",
+            "file_size": "398.6 KB",
+            "safetensors_info": {
+              "num_tensors": 2,
+              "tensor_names": [
+                "bias",
+                "embeddings"
+              ],
+              "tensor_shapes": {
+                "bias": [
+                  1000
+                ],
+                "embeddings": [
+                  1000,
+                  50
+                ]
+              },
+              "tensor_dtypes": {
+                "bias": "float64",
+                "embeddings": "float64"
+              },
+              "file_size": "398.6 KB"
+            }
+          },
+          {
+            "name": "bob_personality",
+            "type": "ngram",
+            "format": "json",
+            "file_size": "2.7 KB"
+          },
+          {
+            "name": "smart_model",
+            "type": "neural",
+            "format": "safetensors",
+            "file_size": "27.5 KB",
+            "safetensors_info": {
+              "num_tensors": 5,
+              "tensor_names": [
+                "W_embed",
+                "W_hidden",
+                "W_out",
+                "b_hidden",
+                "b_out"
+              ],
+              "tensor_shapes": {
+                "W_embed": [
+                  50,
+                  32
+                ],
+                "W_hidden": [
+                  32,
+                  64
+                ],
+                "W_out": [
+                  64,
+                  50
+                ],
+                "b_hidden": [
+                  64
+                ],
+                "b_out": [
+                  50
+                ]
+              },
+              "tensor_dtypes": {
+                "W_embed": "float32",
+                "W_hidden": "float32",
+                "W_out": "float32",
+                "b_hidden": "float32",
+                "b_out": "float32"
+              },
+              "file_size": "27.5 KB"
+            }
+          }
+        ],
+        "model_count": 3
+      },
+      "individual_demo": {
+        "models": [
+          {
+            "name": "individual_neural",
+            "type": "neural",
+            "format": "safetensors",
+            "file_size": "25.9 KB",
+            "safetensors_info": {
+              "num_tensors": 2,
+              "tensor_names": [
+                "bias",
+                "embeddings"
+              ],
+              "tensor_shapes": {
+                "bias": [
+                  100
+                ],
+                "embeddings": [
+                  100,
+                  32
+                ]
+              },
+              "tensor_dtypes": {
+                "bias": "float64",
+                "embeddings": "float64"
+              },
+              "file_size": "25.9 KB"
+            }
+          },
+          {
+            "name": "individual_ngram",
+            "type": "ngram",
+            "format": "json",
+            "file_size": "2.3 KB"
+          }
+        ],
+        "model_count": 2
+      },
+      "chat_pirate": {
+        "models": [
+          {
+            "name": "pirate",
+            "type": "ngram",
+            "format": "json",
+            "file_size": "4.9 KB"
+          }
+        ],
+        "model_count": 1
+      },
+      "chat_alice": {
+        "models": [
+          {
+            "name": "alice",
+            "type": "ngram",
+            "format": "json",
+            "file_size": "5.0 KB"
+          }
+        ],
+        "model_count": 1
+      },
+      "chat_bob": {
+        "models": [
+          {
+            "name": "bob",
+            "type": "neural",
+            "format": "safetensors",
+            "file_size": "398.6 KB",
+            "safetensors_info": {
+              "num_tensors": 2,
+              "tensor_names": [
+                "bias",
+                "embeddings"
+              ],
+              "tensor_shapes": {
+                "bias": [
+                  1000
+                ],
+                "embeddings": [
+                  1000,
+                  50
+                ]
+              },
+              "tensor_dtypes": {
+                "bias": "float64",
+                "embeddings": "float64"
+              },
+              "file_size": "398.6 KB"
+            }
+          }
+        ],
+        "model_count": 1
+      },
+      "alice": {
+        "models": [
+          {
+            "name": "alice_personality",
+            "type": "neural",
+            "format": "safetensors",
+            "file_size": "398.6 KB",
+            "safetensors_info": {
+              "num_tensors": 2,
+              "tensor_names": [
+                "bias",
+                "embeddings"
+              ],
+              "tensor_shapes": {
+                "bias": [
+                  1000
+                ],
+                "embeddings": [
+                  1000,
+                  50
+                ]
+              },
+              "tensor_dtypes": {
+                "bias": "float64",
+                "embeddings": "float64"
+              },
+              "file_size": "398.6 KB"
+            }
+          },
+          {
+            "name": "alice_personality",
+            "type": "ngram",
+            "format": "json",
+            "file_size": "2.4 KB"
+          },
+          {
+            "name": "chat_model",
+            "type": "ngram",
+            "format": "json",
+            "file_size": "1.8 KB"
+          }
+        ],
+        "model_count": 3
+      },
+      "test_user": {
+        "models": [
+          {
+            "name": "simple_chat",
+            "type": "ngram",
+            "format": "json",
+            "file_size": "1.8 KB"
+          }
+        ],
+        "model_count": 1
+      },
+      "charlie": {
+        "models": [
+          {
+            "name": "charlie_personality",
+            "type": "ngram",
+            "format": "json",
+            "file_size": "2.7 KB"
+          },
+          {
+            "name": "charlie_personality",
+            "type": "neural",
+            "format": "safetensors",
+            "file_size": "398.6 KB",
+            "safetensors_info": {
+              "num_tensors": 2,
+              "tensor_names": [
+                "bias",
+                "embeddings"
+              ],
+              "tensor_shapes": {
+                "bias": [
+                  1000
+                ],
+                "embeddings": [
+                  1000,
+                  50
+                ]
+              },
+              "tensor_dtypes": {
+                "bias": "float64",
+                "embeddings": "float64"
+              },
+              "file_size": "398.6 KB"
+            }
+          }
+        ],
+        "model_count": 2
+      }
+    },
+    "summary": {
+      "total_users": 12,
+      "total_models": 19,
+      "ngram_models": 10,
+      "neural_models": 9,
+      "safetensors_models": 9,
+      "legacy_npz_models": 0
+    }
+  },
+  "format_comparisons": {},
+  "validation_results": {
+    "demo_user/demo_neural": {
+      "filepath": "models/demo_user/demo_neural_neural.safetensors",
+      "valid": true,
+      "checks": {
+        "file_exists": true,
+        "loadable": true,
+        "tensor_count": 2,
+        "tensors": {
+          "bias": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          },
+          "embeddings": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          }
+        },
+        "all_tensors_valid": true
+      }
+    },
+    "safetensors_demo/safetensors_test": {
+      "filepath": "models/safetensors_demo/safetensors_test_neural.safetensors",
+      "valid": true,
+      "checks": {
+        "file_exists": true,
+        "loadable": true,
+        "tensor_count": 2,
+        "tensors": {
+          "bias": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          },
+          "embeddings": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          }
+        },
+        "all_tensors_valid": true
+      }
+    },
+    "safetensors_user/safetensors_demo": {
+      "filepath": "models/safetensors_user/safetensors_demo_neural.safetensors",
+      "valid": true,
+      "checks": {
+        "file_exists": true,
+        "loadable": true,
+        "tensor_count": 5,
+        "tensors": {
+          "W_embed": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          },
+          "W_hidden": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          },
+          "W_out": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          },
+          "b_hidden": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          },
+          "b_out": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          }
+        },
+        "all_tensors_valid": true
+      }
+    },
+    "bob/bob_personality": {
+      "filepath": "models/bob/bob_personality_neural.safetensors",
+      "valid": true,
+      "checks": {
+        "file_exists": true,
+        "loadable": true,
+        "tensor_count": 2,
+        "tensors": {
+          "bias": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          },
+          "embeddings": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          }
+        },
+        "all_tensors_valid": true
+      }
+    },
+    "bob/smart_model": {
+      "filepath": "models/bob/smart_model_neural.safetensors",
+      "valid": true,
+      "checks": {
+        "file_exists": true,
+        "loadable": true,
+        "tensor_count": 5,
+        "tensors": {
+          "W_embed": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          },
+          "W_hidden": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          },
+          "W_out": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          },
+          "b_hidden": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          },
+          "b_out": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          }
+        },
+        "all_tensors_valid": true
+      }
+    },
+    "individual_demo/individual_neural": {
+      "filepath": "models/individual_demo/individual_neural_neural.safetensors",
+      "valid": true,
+      "checks": {
+        "file_exists": true,
+        "loadable": true,
+        "tensor_count": 2,
+        "tensors": {
+          "bias": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          },
+          "embeddings": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          }
+        },
+        "all_tensors_valid": true
+      }
+    },
+    "chat_bob/bob": {
+      "filepath": "models/chat_bob/bob_neural.safetensors",
+      "valid": true,
+      "checks": {
+        "file_exists": true,
+        "loadable": true,
+        "tensor_count": 2,
+        "tensors": {
+          "bias": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          },
+          "embeddings": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          }
+        },
+        "all_tensors_valid": true
+      }
+    },
+    "alice/alice_personality": {
+      "filepath": "models/alice/alice_personality_neural.safetensors",
+      "valid": true,
+      "checks": {
+        "file_exists": true,
+        "loadable": true,
+        "tensor_count": 2,
+        "tensors": {
+          "bias": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          },
+          "embeddings": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          }
+        },
+        "all_tensors_valid": true
+      }
+    },
+    "charlie/charlie_personality": {
+      "filepath": "models/charlie/charlie_personality_neural.safetensors",
+      "valid": true,
+      "checks": {
+        "file_exists": true,
+        "loadable": true,
+        "tensor_count": 2,
+        "tensors": {
+          "bias": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          },
+          "embeddings": {
+            "shape_valid": true,
+            "dtype_valid": true,
+            "data_valid": true
+          }
+        },
+        "all_tensors_valid": true
+      }
+    }
+  }
+}

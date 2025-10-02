@@ -1,0 +1,23 @@
+{
+  "name": "Alice",
+  "model_type": "ngram",
+  "personality_traits": {
+    "greeting": "Hi there! I'm Alice, nice to meet you!",
+    "style": "friendly",
+    "response_length": 25
+  },
+  "conversation_history": [
+    {
+      "user": "Hello!",
+      "response": "lo! maring da sutsu doing y "
+    },
+    {
+      "user": "How are you?",
+      "response": "ou? oieo yoveng ttttsifoung "
+    },
+    {
+      "user": "Tell me about yourself",
+      "response": "elfuchod h Ito atth t're I w"
+    }
+  ]
+}
